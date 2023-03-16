@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<extensions>
+	<point id="de.featjar.base.cli.Commands">
+		<extension id="de.featjar.formula.cli.analysis.ComputeSolutionSAT4J" />
+		<extension id="de.featjar.formula.cli.analysis.ComputeCoreDeadVariablesSAT4J" />
+		<extension id="de.featjar.formula.cli.analysis.ComputeSolutionCountSAT4J" />
+		<extension id="de.featjar.formula.cli.analysis.ComputeSolutionsSAT4J" />
+	</point>
+	<!--<point id="de.featjar.cli.configuration.ConfigurationGeneratorAlgorithms">
+		<extension id="de.featjar.cli.configuration.AllAlgorithm" />
+		<extension id="de.featjar.cli.configuration.OneWiseAlgorithm" />
+		<extension id="de.featjar.cli.configuration.PairWiseAlgorithm" />
+		<extension id="de.featjar.cli.configuration.TWiseAlgorithm" />
+		<extension id="de.featjar.cli.configuration.FastRandomAlgorithm" />
+		<extension id="de.featjar.cli.configuration.EnumeratingRandomAlgorithm" />
+		<extension id="de.featjar.cli.configuration.SampleRandomAlgorithm" />
+	</point>-->
+</extensions>
